@@ -2,7 +2,6 @@ let express = require('express');
 let router = express.Router();
 const request = require('request');
 
-
 /* GET home page. */
 router.get('/', function (req, res, next) {
     error = req.query.error;

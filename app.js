@@ -6,7 +6,6 @@ let logger = require('morgan');
 let bodyParser = require('body-parser');
 
 let indexRouter = require('./routes/index');
-let usersRouter = require('./routes/users');
 
 var app = express();
 
