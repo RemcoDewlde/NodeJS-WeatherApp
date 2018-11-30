@@ -1,0 +1,144 @@
+$owi-01d: "\ea02";
+$owi-01n: "\ea01";
+$owi-02d: "\ea03";
+$owi-02n: "\ea04";
+$owi-03d: "\ea05";
+$owi-03n: "\ea06";
+$owi-04d: "\ea07";
+$owi-04n: "\ea08";
+$owi-09d: "\ea09";
+$owi-09n: "\ea0a";
+$owi-10d: "\ea0b";
+$owi-10n: "\ea0c";
+$owi-11d: "\ea0d";
+$owi-11n: "\ea0e";
+$owi-1232n: "\ea0f";
+$owi-13d: "\ea10";
+$owi-13n: "\ea11";
+$owi-20d: "\ea12";
+$owi-50d: "\ea13";
+
+@font-face {
+    font-family: WeatherIcons;
+    src: url("../fonts/WeatherIcons.eot");
+    src: url("../fonts/WeatherIcons.eot?#iefix") format("embedded-opentype"), url("../fonts/WeatherIcons.woff2") format("woff2"), url("../fonts/WeatherIcons.woff") format("woff"), url("../fonts/WeatherIcons.ttf") format("truetype"), url("../fonts/WeatherIcons.svg#WeatherIcons") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+
+%owi {
+    display: inline-block;
+    transform: translate(0, 0);
+    text-rendering: auto;
+    font: normal normal 400 14px/1 WeatherIcons;
+    font-size: inherit;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.owi {
+    @extend %owi;
+}
+
+.owi-lg {
+    vertical-align: -15%;
+    line-height: 0.75em;
+    font-size: 1.33333333em;
+}
+
+.owi-2x {
+    font-size: 2em;
+}
+
+.owi-3x {
+    font-size: 3em;
+}
+
+.owi-4x {
+    font-size: 4em;
+}
+
+.owi-5x {
+    font-size: 5em;
+}
+
+.owi-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+.owi-01d::before {
+    content: "\ea02";
+}
+
+.owi-01n::before {
+    content: "\ea01";
+}
+
+.owi-02d::before {
+    content: "\ea03";
+}
+
+.owi-02n::before {
+    content: "\ea04";
+}
+
+.owi-03d::before {
+    content: "\ea05";
+}
+
+.owi-03n::before {
+    content: "\ea06";
+}
+
+.owi-04d::before {
+    content: "\ea07";
+}
+
+.owi-04n::before {
+    content: "\ea08";
+}
+
+.owi-09d::before {
+    content: "\ea09";
+}
+
+.owi-09n::before {
+    content: "\ea0a";
+}
+
+.owi-10d::before {
+    content: "\ea0b";
+}
+
+.owi-10n::before {
+    content: "\ea0c";
+}
+
+.owi-11d::before {
+    content: "\ea0d";
+}
+
+.owi-11n::before {
+    content: "\ea0e";
+}
+
+.owi-1232n::before {
+    content: "\ea0f";
+}
+
+.owi-13d::before {
+    content: "\ea10";
+}
+
+.owi-13n::before {
+    content: "\ea11";
+}
+
+.owi-20d::before {
+    content: "\ea12";
+}
+
+.owi-50d::before {
+    content: "\ea13";
+}

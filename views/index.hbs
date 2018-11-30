@@ -1,0 +1,16 @@
+<div class="container" style="margin-top: 10vh">
+    <h2>Check the weather in your area</h2>
+    <br>
+    {{#if error}}
+        <div class="alert alert-danger" role="alert">
+            <i class="fas fa-exclamation-circle"></i> {{error}}
+        </div>
+    {{else}}
+        <br>
+    {{/if}}
+
+    <form action="/weather" method="get">
+        <input class="form-control" name="city" type="text" placeholder="Search for your city">
+        <button class="btn btn-primary btn-block" style="margin-top: 1vh">Search <i class="fas fa-search"></i></button>
+    </form>
+</div>
