@@ -1,26 +1,53 @@
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="d-flex justify-content-center" style="margin-top: 5vh">-->
+<!--<div class="weatherCard">-->
+<!--<div class="currentTemp">-->
+<!--{{weather.temp}}-->
+<!--<span class="location">{{weather.city}}</span>-->
+<!--</div>-->
+<!--<div class="currentWeather">-->
+<!--<i class="wi wi-owm-{{weather.code}} weathericon"></i>-->
+<!--<div class="info">-->
+<!--<span class="rain ">{{weather.desc}}</span>-->
+<!--<span class="wind">{{weather.wins}} M/S</span>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<br>
 <div class="container">
-    <div class="row">
-        <div class="d-flex justify-content-center" style="margin-top: 5vh">
-            <div class="weatherCard">
-                <div class="currentTemp">
-                    <span class="temp">{{weather.temp}}&deg;</span>
-                    <span class="location">{{weather.city}}</span>
+    <div class="card text-center">
+        <div class="card-header bg-secondary">
+            <div class="row">
+                <div class="col">
+                    <span class="temp">{{weather.temp}}&deg; in</span> <span class="location">{{weather.city}}</span>
                 </div>
-                <div class="currentWeather">
+                <div class="col">
                     <i class="wi wi-owm-{{weather.code}} weathericon"></i>
-                    <div class="info">
-                        <span class="rain ">{{weather.desc}}</span>
-                        <span class="wind">{{weather.wins}} M/S</span>
-                    </div>
                 </div>
             </div>
+
+
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Weather description:</h5>
+            <p class="card-text">{{weather.desc}}</p>
+            <i class="fas fa-wind"></i>
+            <div>wind speed in M/S: {{weather.ms}}</div>
+            </i>
+            <div>wind speed in kts {{weather.knots}}</div>
+
         </div>
     </div>
+
 
     <br>
     <div class="row">
         <a href="/" class="btn btn-primary btn-block" style="max-width: 300px;width: 300px !important;">Return</a>
     </div>
 </div>
+
 
 
