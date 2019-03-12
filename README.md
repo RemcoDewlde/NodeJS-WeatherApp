@@ -10,3 +10,6 @@ USED
 [Link to WeatherApp](
 https://adsd.clow.nl/~s1128681/P2_NodeJS_Opdracht/112/
 )
+
+
+## the api key in this project is not in valid, change it
